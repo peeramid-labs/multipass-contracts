@@ -1,5 +1,11 @@
 # @peeramid-labs/multipass
 
+## 0.3.5
+
+### Patch Changes
+
+- [#34](https://github.com/peeramid-labs/multipass/pull/34) [`f9407aeaae708aba093b0446f147685b90a8b4ed`](https://github.com/peeramid-labs/multipass/commit/f9407aeaae708aba093b0446f147685b90a8b4ed) Thanks [@peersky](https://github.com/peersky)! - add artifacts directory to release package
+
 ## 0.3.4
 
 ### Patch Changes
