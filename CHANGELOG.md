@@ -1,5 +1,11 @@
 # @peeramid-labs/multipass
 
+## 0.3.4
+
+### Patch Changes
+
+- [#32](https://github.com/peeramid-labs/multipass/pull/32) [`7701f0af7cac3976b8930fbb32cc12b437a1e5ed`](https://github.com/peeramid-labs/multipass/commit/7701f0af7cac3976b8930fbb32cc12b437a1e5ed) Thanks [@peersky](https://github.com/peersky)! - added /deploy directory to package files
+
 ## 0.3.3
 
 ### Patch Changes
