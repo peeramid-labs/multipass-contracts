@@ -1,6 +1,6 @@
 {
   "name": "@peeramid-labs/multipass",
-  "version": "0.3.5",
+  "version": "0.3.6",
   "files": [
     "artifacts",
     "abi",
