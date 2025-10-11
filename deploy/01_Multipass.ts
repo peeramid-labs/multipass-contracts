@@ -11,6 +11,7 @@ const func: DeployFunction = async (hre: HardhatRuntimeEnvironment) => {
   const { deployer, owner } = await getNamedAccounts();
   const deployment = await deploy('Multipass', {
     from: deployer,
+    args: [true],
     proxy: {
       execute: {
         init: {
