@@ -1,5 +1,11 @@
 # @peeramid-labs/multipass
 
+## 0.3.6
+
+### Patch Changes
+
+- [#36](https://github.com/peeramid-labs/multipass/pull/36) [`86efd025e6fef7723821c08153b4316916032f59`](https://github.com/peeramid-labs/multipass/commit/86efd025e6fef7723821c08153b4316916032f59) Thanks [@peersky](https://github.com/peersky)! - added constructor test ability to bypass initializer disabling
+
 ## 0.3.5
 
 ### Patch Changes
