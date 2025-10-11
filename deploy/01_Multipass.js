@@ -1,6 +1,6 @@
-export const MULTIPASS_CONTRACT_NAME = 'MultipassDNS';
-export const MULTIPASS_CONTRACT_VERSION = '0.0.1';
-export function getProcessEnv(print, key) {
+const MULTIPASS_CONTRACT_NAME = 'MultipassDNS';
+const MULTIPASS_CONTRACT_VERSION = '0.0.1';
+function getProcessEnv(print, key) {
   const ret = process.env[key];
   if (!ret) {
     throw new Error(key + ' must be exported in env');
