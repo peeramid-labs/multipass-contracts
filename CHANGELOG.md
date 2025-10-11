@@ -1,5 +1,11 @@
 # @peeramid-labs/multipass
 
+## 0.3.7
+
+### Patch Changes
+
+- [#38](https://github.com/peeramid-labs/multipass/pull/38) [`b8b33caa715430598999049a568ff62ef9b45920`](https://github.com/peeramid-labs/multipass/commit/b8b33caa715430598999049a568ff62ef9b45920) Thanks [@peersky](https://github.com/peersky)! - added more files to package artifact such as scripts&tests. Cleaned up deployment script.
+
 ## 0.3.6
 
 ### Patch Changes
