@@ -21,8 +21,10 @@ contract Multipass is ERC165Upgradeable, EIP712Upgradeable, IMultipass, Reentran
     using LibMultipass for LibMultipass.Record;
     using LibMultipass for bytes;
 
-    constructor() {
-        _disableInitializers();
+    constructor(bool isTest) {
+        if (!isTest) {
+            _disableInitializers();
+        }
     }
     /**
      * @notice Initializes the contract with a name, version, and owner address.
