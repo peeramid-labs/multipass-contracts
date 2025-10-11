@@ -2,7 +2,7 @@ name: setup
 runs:
   using: 'composite'
   steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
       with:
         fetch-depth: 0
     - name: Install pnpm
@@ -11,9 +11,9 @@ runs:
         version: 9
         run_install: false
     - name: Setup Node.js
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
-        node-version: 18.17.1
+        node-version: 22.14.0
         cache: 'pnpm'
     - name: Get pnpm store directory
       shell: bash
