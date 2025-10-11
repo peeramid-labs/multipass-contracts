@@ -9,7 +9,12 @@
     "types",
     "scripts",
     "docs",
-    "deploy"
+    "deploy",
+    "test",
+    "tsconfig.json",
+    "hardhat.config.ts",
+    "signatures.json",
+    "super-interface.json"
   ],
   "description": "Contracts for public cross domain username query",
   "scripts": {
