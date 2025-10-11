@@ -1,11 +1,16 @@
-import { HardhatRuntimeEnvironment } from 'hardhat/types';
-import { DeployFunction } from 'hardhat-deploy/types';
-import { MULTIPASS_CONTRACT_VERSION, MULTIPASS_CONTRACT_NAME } from '../test/utils';
-import { getProcessEnv } from '../scripts/libraries/utils';
+export const MULTIPASS_CONTRACT_NAME = 'MultipassDNS';
+export const MULTIPASS_CONTRACT_VERSION = '0.0.1';
+export function getProcessEnv(print, key) {
+  const ret = process.env[key];
+  if (!ret) {
+    throw new Error(key + ' must be exported in env');
+  }
+  return print ? 'X'.repeat(ret.length) : ret;
+}
 
-const func: DeployFunction = async (hre: HardhatRuntimeEnvironment) => {
+const func = async hre => {
   const { deployments, getNamedAccounts } = hre;
-  const { diamond, deploy } = deployments;
+  const { deploy } = deployments;
   const { deployer, owner } = await getNamedAccounts();
   const deployment = await deploy('Multipass', {
     skipIfAlreadyDeployed: true,
