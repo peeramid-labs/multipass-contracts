@@ -1,5 +1,11 @@
 # @peeramid-labs/multipass
 
+## 0.3.8
+
+### Patch Changes
+
+- [#40](https://github.com/peeramid-labs/multipass/pull/40) [`013c7fe98003bc264470fe8f057dcf712b7a9e19`](https://github.com/peeramid-labs/multipass/commit/013c7fe98003bc264470fe8f057dcf712b7a9e19) Thanks [@peersky](https://github.com/peersky)! - deploy script updated to be js for better downstream compat
+
 ## 0.3.7
 
 ### Patch Changes
